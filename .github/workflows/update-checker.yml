@@ -8,7 +8,7 @@ env:
 on:
   workflow_dispatch:
   schedule:
-    - cron: 30 13 * * WED
+    - cron: 30 7 * * WED
 
 jobs:
   lede:
